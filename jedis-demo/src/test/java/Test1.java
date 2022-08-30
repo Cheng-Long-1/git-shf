@@ -13,7 +13,7 @@ public class Test1 {
     @Before
     public void before(){
         jedis = new Jedis("192.168.133.128", 6379);
-        jedis.auth("123");
+        jedis.auth("12311111111111111111");
     }
 
     @After
